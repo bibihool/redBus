@@ -14,7 +14,7 @@ int displayMainMenu();
 // Lists all routes with destination, fare, and available seats.
 void viewRoutes(const std::vector<BusRoute>& routes);
 
-// Full booking flow: select route -> standard/VIP -> passenger count ->
+// Full booking flow: select route -> passenger count ->
 // calls calculateFare() and updateSeats() from Logic.h -> shows checkout screen.
 void bookingFlow(std::vector<BusRoute>& routes);
 
